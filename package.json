@@ -1,5 +1,9 @@
 {
   "name": "@vas-frontend/root-config",
+  "repository": {
+    "url": "git+https://github.com/KshitijRaj09/spa-root-config-poc.git"
+  },
+  "homepage": "git+https://github.com/KshitijRaj09/spa-root-config-poc.git",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
@@ -9,7 +13,9 @@
     "prepare": "husky install",
     "build": "concurrently yarn:build:*",
     "build:webpack": "webpack --mode=production",
-    "build:types": "tsc"
+    "build:types": "tsc",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "publishConfig": {
     "@vas-frontend:registry": "https://villain.jfrog.io/artifactory/api/npm/jfrog-test1/"
@@ -28,6 +34,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-ts-important-stuff": "^1.1.0",
     "eslint-plugin-prettier": "^3.4.1",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.3.2",
     "husky": "^7.0.2",
     "jest": "^27.0.6",
@@ -47,8 +54,8 @@
     "@types/jest": "^27.0.1",
     "@types/systemjs": "^6.1.1",
     "@types/webpack-env": "^1.16.2",
-    "@vas-spa1/spa-learning": "^0.1.7",
     "@vas-spa1/spa-application2": "^0.1.1",
+    "@vas-spa1/spa-learning": "^0.1.7",
     "single-spa": "^5.9.3",
     "systemjs": "^6.13.0"
   },
