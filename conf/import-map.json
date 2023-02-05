@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "single-spa": "/extras/single-spa.min.js",
+    "react": "/extras/react.production.min.js",
+    "react-dom": "/extras/react-dom.production.min.js",
+    "@vas-spa1/spa-learning": "/spa-learning.js",
+    "@vas-frontend/root-config": "/vas-frontend-root-config.js"
+  }
+}
