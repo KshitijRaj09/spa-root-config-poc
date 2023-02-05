@@ -3,7 +3,7 @@
   "repository": {
     "url": "git+https://github.com/KshitijRaj09/spa-root-config-poc.git"
   },
-  "homepage": "git+https://github.com/KshitijRaj09/spa-root-config-poc.git",
+  "homepage": "git+https://github.com/KshitijRaj09/spa-root-config-poc.git/main/build/index.html",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
