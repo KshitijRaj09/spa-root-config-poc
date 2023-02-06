@@ -1,0 +1,1 @@
+/*! For license information please see spa-navbar.js.LICENSE.txt */
