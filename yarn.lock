@@ -1281,6 +1281,11 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
+"@remix-run/router@1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.3.1.tgz#3bb0b6ddc0a276e8dc1138d08f63035e4e23e8bf"
+  integrity sha512-+eun1Wtf72RNRSqgU7qM2AMX/oHp+dnx7BHk1qhK5ZHzdHTUU4LA1mGG1vT+jMc8sbhG3orvsfOmryjzx2PzQw==
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.6"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.6.tgz#80c516a4dc264c2a69115e7578d62581ff455ed9"
@@ -1630,6 +1635,22 @@
     workbox-routing "^6.5.4"
     workbox-strategies "^6.5.4"
     workbox-streams "^6.5.4"
+
+"@vas-spa1/spa-navbar@^0.1.2":
+  version "0.1.2"
+  resolved "https://villain.jfrog.io/artifactory/api/npm/jfrog-test1/@vas-spa1/spa-navbar/-/@vas-spa1/spa-navbar-0.1.2.tgz#a514b7f3a1336fbe5edcfada3323504bd3af0e4b"
+  integrity sha512-anLIJIm5Bv02JmcZhHvoqBSohXPJsS6zEXb8+wWdhSgF8Zf93Etfm5YwVzQSU0D/Rf88E0HBnOTT6yUXo0tLDA==
+  dependencies:
+    "@types/jest" "^27.0.1"
+    "@types/react" "^17.0.19"
+    "@types/react-dom" "^17.0.9"
+    "@types/systemjs" "^6.1.1"
+    "@types/webpack-env" "^1.16.2"
+    react "^17.0.2"
+    react-dom "^17.0.2"
+    react-router-dom "^6.8.0"
+    single-spa "^5.9.3"
+    single-spa-react "^4.3.1"
 
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"
@@ -5312,6 +5333,21 @@ react-is@^17.0.1:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-router-dom@^6.8.0:
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.8.0.tgz#5e5f4c4b15fdec3965d2ad9d7460d0c61971e744"
+  integrity sha512-hQouduSTywGJndE86CXJ2h7YEy4HYC6C/uh19etM+79FfQ6cFFFHnHyDlzO4Pq0eBUI96E4qVE5yUjA00yJZGQ==
+  dependencies:
+    "@remix-run/router" "1.3.1"
+    react-router "6.8.0"
+
+react-router@6.8.0:
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.8.0.tgz#dd61fd1ec44daa2cceaef8e6baa00f99a01a650f"
+  integrity sha512-760bk7y3QwabduExtudhWbd88IBbuD1YfwzpuDUAlJUJ7laIIcqhMvdhSVh1Fur1PE8cGl84L0dxhR3/gvHF7A==
+  dependencies:
+    "@remix-run/router" "1.3.1"
 
 react@^17.0.2:
   version "17.0.2"

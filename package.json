@@ -1,5 +1,5 @@
 {
-  "name": "@vas-frontend/root-config",
+  "name": "@vas-spa1/root-config",
   "repository": {
     "url": "git+https://github.com/KshitijRaj09/spa-root-config-poc.git"
   },
@@ -56,6 +56,7 @@
     "@types/webpack-env": "^1.16.2",
     "@vas-spa1/spa-application2": "^0.1.1",
     "@vas-spa1/spa-learning": "^0.1.7",
+    "@vas-spa1/spa-navbar": "^0.1.2",
     "single-spa": "^5.9.3",
     "systemjs": "^6.13.0"
   },

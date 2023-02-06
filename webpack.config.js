@@ -109,6 +109,16 @@ module.exports = (webpackConfigEnv, argv) => {
               "./node_modules/@vas-spa1/spa-application2/public/spa-application2.js.map",
             to: "./",
           },
+          {
+            from:
+              "./node_modules/@vas-spa1/spa-navbar/public/spa-navbar.js",
+            to: "./",
+          },
+          {
+            from:
+            "./node_modules/@vas-spa1/spa-navbar/public/spa-navbar.js.map",
+            to: "./",
+          },
           // },
           //{ from: "./scripts", to: "./" },
         ],
