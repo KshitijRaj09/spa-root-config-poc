@@ -3,7 +3,7 @@
   "repository": {
     "url": "git+https://github.com/KshitijRaj09/spa-root-config-poc.git"
   },
-  "homepage": "git+https://github.com/KshitijRaj09/spa-root-config-poc.git/main/build/index.html",
+  "homepage": "git+https://github.com/KshitijRaj09/spa-root-config-poc.git",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
@@ -15,7 +15,7 @@
     "build:webpack": "webpack --mode=production",
     "build:types": "tsc",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "publishConfig": {
     "@vas-frontend:registry": "https://villain.jfrog.io/artifactory/api/npm/jfrog-test1/"
